@@ -35,7 +35,7 @@ def sum_digits(y):
     n = 0
     result = 0
     while y >= pow(10, n):
-        check = pow(10, n)
+        check = pow(10, n) # check serves to find the biggest digit of the given number
         n = n + 1
     while y >= 10:
         digit = y // check
@@ -63,7 +63,7 @@ def double_eights(n):
     "*** YOUR CODE HERE ***"
     k = 0
     while n >= pow(10, k):
-        check = pow(10, k)
+        check = pow(10, k) # check serves to find the biggest digit of the given number
         k = k + 1
     while n >= 10:
         x = n // check
